@@ -7,7 +7,10 @@
         <div class="container2">
           <input class="nameInput" type="text" id="name" [(ngModel)]="formData.name" name="name" required>
         </div>
-        <br><br><br><br><br><br>
+        <br>
+        <div class="container3">
+          <carousel [slides]="slides" [animationType]="animationType"></carousel>
+        </div>
         <button type="submit" class="submit-btn">JE PRENDS</button>
       </form>
     </div>
