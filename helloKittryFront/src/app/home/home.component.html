@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="main-div">
+    <img src="../../assets/AssetsSite/Titre.png" alt="" style="width: 100%;">
+    <div class="search">
+      <p class="renseignetonnom">Renseigne ton nom ici :</p>
+      <form (ngSubmit)="submitForm()">
+        <div class="container2">
+          <input class="nameInput" type="text" id="name" [(ngModel)]="formData.name" name="name" required>
+        </div>
+        <br><br><br><br><br><br>
+        <button type="submit" class="submit-btn">JE PRENDS</button>
+      </form>
+    </div>
+  </div>
+</div>

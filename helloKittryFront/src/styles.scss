@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+body {
+  background-image: url('./assets/AssetsSite/Background.png');
+  background-size:cover;
+}
+
+.container {
+  margin: 0 auto; /* Centre la div horizontalement */
+  max-width: 800px; /* Définit une largeur maximale pour la div */
+}
+
+.main-div {
+  margin-left: 20px; /* Marge de 20 pixels à gauche */
+  margin-right: 20px; /* Marge de 20 pixels à droite */
+}
+
+.search{
+  background-image: linear-gradient(to bottom right, #9c91b0,#473064,#473064, #9c91b0);
+  height: 100px;
+  border-radius: 10px;
+  opacity: 70%;
+}
+
+.submit-btn{
+  background-image: linear-gradient(to bottom right, #a5a286,#8a8660, #a5a286);
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  opacity: 100%;
+  font-size:150%;
+  color: #cccab4;
+}
+
+.nameInput{
+  height: 40px;
+  width: 80%;
+  background-image: linear-gradient(to bottom right, #d1c9d9,#8e70a8,#8e70a8, #d1c9d9);
+  border-radius: 10px;
+  border-style:hidden;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.renseignetonnom{
+  margin-left: 50px;
+  opacity: 50%;
+  color:#d1c9d9;
+}
